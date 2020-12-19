@@ -18,7 +18,7 @@ response : list of todos
 
 Example :
 1. curl -X GET thttp://localhost:3030/todos (for all todos)
-2. Example : curl -X GET thttp://localhost:3030/todos?title=testing&priority=2 
+2. curl -X GET thttp://localhost:3030/todos?title=testing&priority=2 
 */
 const getTodos = (request, response) => {
     const search_params = request.query
